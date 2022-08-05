@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class CommonActions {
 	public static WebDriver driver;
     public void browserLaunch() {
@@ -21,6 +20,7 @@ public class CommonActions {
     public void name() {
 	WebElement name = driver.findElement(By.id("name"));
 	name.sendKeys("Thamizhselvan");
+	
     }	
     public void email() {
 	WebElement email = driver.findElement(By.id("email"));

@@ -5,7 +5,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.naukri.resources.CommonActions;
-
 public class PageObjectModel extends CommonActions {
 	CommonActions c=new CommonActions();
 	public PageObjectModel () {

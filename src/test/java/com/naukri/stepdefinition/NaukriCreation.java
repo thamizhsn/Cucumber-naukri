@@ -5,7 +5,6 @@ import com.naukri.resources.CommonActions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-
 public class NaukriCreation extends CommonActions {
 	CommonActions c=new CommonActions();
 	PageObjectModel p =new PageObjectModel();
